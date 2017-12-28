@@ -1,0 +1,39 @@
+{
+  "name": "begin_to_nvy",
+  "version": "0.0.1",
+  "description": "A project starter package for nvy,io projects and clients.  By NiKole Maxwell for nvy.io. Free to replicate - FORK IT on GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NVyIo/begin_to_nvy.git"
+  },
+  "keywords": [
+    "project",
+    "starter",
+    "starter",
+    "kit",
+    "nvy.io",
+    "NiKole",
+    "Maxwell",
+    "fork",
+    "it",
+    "clone",
+    "it",
+    "make",
+    "it",
+    "your",
+    "own",
+    "2018",
+    "starter",
+    "kit"
+  ],
+  "author": "NiKole Maxwell",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/NVyIo/begin_to_nvy/issues"
+  },
+  "homepage": "https://github.com/NVyIo/begin_to_nvy#readme"
+}
