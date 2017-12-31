@@ -1,0 +1,10 @@
+/*  These files will be suppressed from the public view  */
+
+/*  .ignore Folder     */
+
+/.ignore
+/.ignore/
+.ignore/
+
+/*  Internal Folder  */
+/internals
