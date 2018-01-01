@@ -1,6 +1,6 @@
   /*/                    begin_: 2_nvy                 /*/
- /*/                A project starter kit           /*/
-/*/            Cascading Style Sheet        /*/
+ /*/                A project starter kit            /*/
+/*/            Cascading Style Sheet           /*/
 
 /*
 
@@ -26,8 +26,8 @@ Colors:
 
 
 
-        /*/ SECONDARY       FOOTER      /*/
-        
+/*/               FOOTER                 /*/
+
         .div_footer {
             position:relative;
             height: -265px;
