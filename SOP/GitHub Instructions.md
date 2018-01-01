@@ -49,9 +49,8 @@ Create a link from the Editor to the repo
 ### Add files to .ignore [Internal Files and Folders]
 
 In Visual Studio Code:
-
-    1.  Create the .ignore folder
-    2. Add any files needed to the .gitignore file or folder
+1.  Create the .ignore folder
+2. Add any files needed to the .gitignore file or folder
 
 ### Initialize the Repo [Terminal]
 
@@ -109,9 +108,16 @@ When ready to commit them:
 
 ### To  Add or Update Versioning
 
- git tag -a [version] -m "[version message]
- git tag -a v1.2.0 -m "Awesome Library v1.2.0 "
+Projects use GitHub semantic versioning as the standard.
 
+Manage versions by adding the following to a commit message:
+    +semver: breaking  +semver: major will cause the major version to be increased
+    +semver: feature or +semver: minor will bump minor 
+    +semver: patch or +semver: fix will bump the patch
+
+ ```git tag -a [version] -m "[version message] ```
+ 
+ ```git tag -a v1.2.0 -m "Awesome Library v1.2.0 " ```
 ### DELETE a committed but unpushed change
 
 If you have NOT pushed your changes to remote:
@@ -139,3 +145,6 @@ Use `git Reset`
 git reset --hard origin/master
 
 ```
+
+
+
