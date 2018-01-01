@@ -29,6 +29,5 @@ It can be used for SQL or No SQL databases and probably for anything you choose 
 ### TBD
     - Wiki
     - GH Pages
-    -   
 
 
