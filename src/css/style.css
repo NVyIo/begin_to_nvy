@@ -1,123 +1,68 @@
-  /*/                    begin_: 2_nvy                 /*/
- /*/                A project starter kit            /*/
-/*/            Cascading Style Sheet           /*/
-
+  /*/                    begin_: 2_nvy                   /*/
+ /*/                A project starter kit              /*/
+/*/              Cascading Style Sheet           /*/
 /*
 
-nvy.io themed standards
+nvy.io themed standards for 2018
 *** Change as needed ***
 
 Font:
-    Style link:     <link href="https://fonts.googleapis.com/css?family=Exo|Lato|Philosopher" rel="stylesheet">
-    Main: font-family: 'Lato', sans-serif;
-    Header:  font-family: 'Exo', sans-serif;
-    Footer: font-family: 'Philosopher', sans-serif;
+    Style link:    <
+        link href="https://fonts.googleapis.com/css?family=Advent+Pro|Arsenal|Questrial" rel="stylesheet">
 
+    Headline:   font-family: 'Arsenal', sans-serif;
+    Normal:     font-family: 'Questrial', sans-serif;
+    Header;     font-family: 'Advent Pro', sans-serif;:
+    Footer:      font-family: 'Advent Pro', sans-serif;:(Reserve for philosopher)
 
 Colors:
-    Main: #2fea353b (light pea green)
-    Accent: 00ff90;  [electric green]
-    Dark: #565656; gray
-    Shadow: #5a5656;  gray
-    Accent-2: 4bc259; (logo green) 
+
+  Electric Nvy;  #00ff99;
+  Subliminal Blue: #62f8ed;
+  Tang: #FFCC95;
+  Dark Gray: #565656;   
+  Light Gray: bfbfbf;
+  Offwhite: #f5eadf;
+
 
 
 */
 
+/*/            TYPOGRAPHY: Defaults          /*/
 
+body, main {
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    color: #565656;
+}
 
-/*/               FOOTER                 /*/
+ul, li {
+    list-style: none;
+    list-style-type: none;
+    display: block;
+}
 
-        .div_footer {
-            position:relative;
-            height: -265px;
-            width: 100%;
+a {
+    text-decoration: none;
+}
 
-        }
+/*/                   nvy LOGO                    /*/
 
-        #main-footer h2 {
-            padding-top: 35px;
-            color: white;
-            font-family: 'Philosopher', sans-serif;
-            /*text-shadow: 2px 2px black, -2px -2px #00ff90; */
-            margin-bottom: 0;
-            margin-left: 3em;
-        }
-        
-        #main-footer p {
-            color: #00ff90;
-            font-variant: small-caps;
-            margin-left: 3.5em;
-        }
-        
-        .iconz {
-            margin-bottom: 3em;
-        }
+.logo {
+        padding-top: 4em;
+        padding-bottom: 14.2em;
+        background: url("../images/soc/logo.png") no-repeat;
+        margin-left: 40%;
+        margin-top: 5em;
+    }
 
-        .iconz img{
-            width: 60px;
-            height: 60px;
-            margin-left:75px;
-            margin-bottom: 0;
-        }
-        
-        .d-flex.flex-row {
-            margin: 0;
-            padding: 0;
-            margin-top: -2.1em;
-        }
-        
-        .nvy, #moldLink {
-            text-decoration: none;
-            color: white;
-        }
-        
-        .nvy:hover {
-            font-size: 2.5em;
-        }
-        
-        #moldLink:hover {
-            color:#00ff90;
-            font-size: 1.5em;	
-        }
-        
-        #support {
-            font-family: 'Philosopher', sans-serif;
-        }
-        
-        #support a {
-            color: #00ff90;
-            text-decoration: none;
-        }
+    .projectTitle {
 
-        #footedFully {
-            width: 100%;
-            margin-left: 17.5em;
-           padding-bottom:  1em;
+            font-family: 'Advent Pro', sans-serif;
+            color: #00ff99;
+            letter-spacing: 14px;
+            text-shadow: -1px -1px #565656;
+            font-size: 3em;
+            margin-top: -3em;
+            margin-left: 50%;
         }
-
-        #footer_Name {
-            margin-left: 1;
-        }
-
-        .treehouse img {
-            float: left;
-            max-height: 200px;
-            max-width: 200px;
-            margin-top: -9em;
-            margin-left: -10em;
-            clear: both;
-            z-index: 98;
-            position: relative;
-            border-radius: 5em;
-        }
-
-        .copyright {
-            font-family: 'Philosopher', sans-serif;
-            width: 100%;
-            color: white;
-            line-height: 3.25;
-            padding: 0;
-            margin: 0;
-            margin-left: 2em;
-        }   
