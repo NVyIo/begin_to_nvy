@@ -36,7 +36,12 @@ body, main {
     color: #565656;
 }
 
-ul, li {
+p, .normal {
+    font-family: 'Questrial', sans-serif;
+    line-height: 2;
+}
+
+li.navi {
     list-style: none;
     list-style-type: none;
     display: inline;
@@ -52,11 +57,12 @@ a {
     font-size: xx-large;
     background: white;
     border-radius: 5em;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Arsenal', sans-serif;
     text-shadow: 1px 1px #00ff99;
 }
 
-/*/                   nvy LOGO                    /*/
+
+/*/                nvy LOGO & TITLE                    /*/
 
 .logo {
     padding-top: 4em;
@@ -77,6 +83,55 @@ a {
     margin-left: 33%;
 }
 
+.subTitle {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2.8em;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px #ffcc95;
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+}
+
+.hr1 {
+    border-top-left-radius: 5em;
+    border-top-right-radius: 5em;
+    background: #00ff99;
+    border-top: 1px solid #00ff99;
+    padding-top: .2em;
+}   
+
+.hr2 {
+    border-top: #565656;
+    border: 1px inset #61f8ed;
+    margin-top: -.3em;
+}
+
+nav {
+    float: right;
+    margin-top: -9em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+/*/                        INTRO                 /*/
+
+.heading {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 5em;
+    color: #565656;
+    text-shadow: 1px -1px #00ff99;
+    margin-top: -.7em;
+}
+
+.heading::first-letter {
+    font-size: 175%;
+    color: #00ff99;
+    font-variant: all-petite-caps;
+    text-shadow: 4px 3px 7px black;
+    font-family: 'Advent pro',sans-serif;
+}
+
 .subHeading {
     font-family: 'Advent Pro', sans-serif;
     font-size: 2.8em;
@@ -87,29 +142,73 @@ a {
     margin-left: -1.5em;
 }
 
-.heading {
-    font-family: 'Arsenal', sans-serif;
-    font-size: 5em;
+p, .normal {
+    font-family: 'Questrial', sans-serif;
+    line-height: 2;
+    padding-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.6rem;
+}
+
+/* Welcome Emphasis */
+.slogan {
+    margin-left: 20%;
+}
+
+.emphasis {
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 900;
+    letter-spacing: 1rem;
+    text-shadow: 1px 1px #565656, 1.5px 1.5px 6px #565656;
+}
+
+.electric {
+    color: #00ff99;
+}
+
+.subBlue {
+    color:  #62f8ed;
+}
+
+.tang {
+    color: #ffcc95;
+}
+
+.gray {
     color: #565656;
-    text-shadow: 1px -1px #00ff99;
+    text-shadow: 1px 1px #62f8ed, 1.5px 1.5px 6px #565656;
+}
+
+.image1 {
+    background-image: url("../images/image1.png");
+}
+
+/*/                 Colors              /*/
+.color {
+    float: left;
+    position: relative;
+    font-size: 18px;
+}
+.square1 {
+    width: 50px;
+    height: 50px;
+    background: #00ff99;
+    border: 1px 1px #565656;
+}
+
+.square2 {
+    width: 50px;
+    height: 50px;
+    background: #565656;
+    border: 1px 1px #00ff99;
 }
 
 
-        
-        p, .normal {
-            font-family: 'Questrial', sans-serif;
-            line-height: 2;
-        }
-
-        hr {
-            border-top-left-radius: 5em;
-            border-top-right-radius: 5em;
-            border-top: #565656;
-        }
-
-        nav {
-            float: right;
-            margin-top: -3em;
-            margin-bottom: 2em;
-        }
-        
+.square3 {
+    width: 50px;
+    height: 50px;
+    background: #62f8ed;
+    border: 1px 1px #565656;
+}
