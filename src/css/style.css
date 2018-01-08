@@ -31,6 +31,8 @@ Colors:
 /*/            TYPOGRAPHY: Defaults          /*/
 
 body, main {
+    max-width: 1300px;
+    margin: auto;
     font-size: 20px;
     font-family: 'Questrial', sans-serif;
     color: #565656;
@@ -39,6 +41,7 @@ body, main {
 p, .normal {
     font-family: 'Questrial', sans-serif;
     line-height: 2;
+    font-size: 1.5rem;
 }
 
 li.navi {
@@ -85,7 +88,7 @@ a {
 
 .subTitle {
     font-family: 'Advent Pro', sans-serif;
-    font-size: 2.8em;
+    font-size: 3.8em;
     font-weight: normal;
     text-align: center;
     text-shadow: 1px 1px #ffcc95;
@@ -105,6 +108,7 @@ a {
     border-top: #565656;
     border: 1px inset #61f8ed;
     margin-top: -.3em;
+    margin-bottom: 5em;
 }
 
 nav {
@@ -115,6 +119,10 @@ nav {
 }
 
 /*/                        INTRO                 /*/
+
+header {
+    color: #565656;
+}
 
 .heading {
     font-family: 'Arsenal', sans-serif;
@@ -134,12 +142,13 @@ nav {
 
 .subHeading {
     font-family: 'Advent Pro', sans-serif;
-    font-size: 2.8em;
+    font-size: 4.3em;
     font-weight: normal;
     text-align: center;
     text-shadow: 1px 1px #ffcc95;
-    margin-top: -1.5em;
+    padding-top: -1.5em;
     margin-left: -1.5em;
+    margin-top: .5em;
 }
 
 p, .normal {
@@ -149,12 +158,11 @@ p, .normal {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 1.6rem;
+    font-weight: 300;
 }
 
 /* Welcome Emphasis */
-.slogan {
-    margin-left: 20%;
-}
+
 
 .emphasis {
     text-align: center;
@@ -164,6 +172,10 @@ p, .normal {
     text-shadow: 1px 1px #565656, 1.5px 1.5px 6px #565656;
 }
 
+.intro {
+    font-size: 2rem;
+    text-align: center;
+}
 .electric {
     color: #00ff99;
 }
@@ -176,6 +188,10 @@ p, .normal {
     color: #ffcc95;
 }
 
+.offWhite {
+    color: #f5eadf;
+}
+
 .gray {
     color: #565656;
     text-shadow: 1px 1px #62f8ed, 1.5px 1.5px 6px #565656;
@@ -185,24 +201,199 @@ p, .normal {
     background-image: url("../images/image1.png");
 }
 
+
+/*/                 Fonts              /*/
+
+.arsenal {
+    font-family: 'Arsenal', sans-serif;
+}
+
+.advent{
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.questrial {
+    font-family: 'Questrial', sans-serif;
+}
+
+.t-shadow {
+    text-shadow: 1px 1px #565656;
+
+}
+.strong {
+    font-weight: 900;
+}
+
+.regular {
+    font-weight: 300;
+
+}
+
+.underline{
+    border-bottom: 1px solid #565656;
+}
+
+.dark {
+    background-color: #565656;
+    color: #f5eadf;
+    padding: 2.5px;
+}
+
+.light {
+    background-color: #bfbfbf;
+    color: #565656;
+    padding: 5px;
+}
+
+.rounded {
+    border-radius: 5em;
+    border: 3px inset #00ff99;
+    padding: 7px;
+}
+
+.boxShadow {
+    box-shadow: 10px 11px 10px #565656;
+}
+
+.borderedGray {
+    border: 1px inset #565656;
+    padding: 5px;
+}
+
+.borderedBlue {
+    border: 2px outset #62f8ed;
+    padding: 5px;
+}
+
+.highlight {
+    background: #FFCC95;
+    padding: 5px;
+    font-weight: 700;
+    text-shadow: 1px 1px #f5eadf;
+}
+
+/*/         Heading box [Aside]             /*/
+aside {
+    float: right;
+    border-radius: 2em;
+    border: 5px dashed #00ff99;
+
+    margin: 1em;
+    padding: 1em;
+    background: #565656;
+    color: #eeeeee;
+    font-weight: normal;
+    opacity: .95;
+}
+
+aside li {
+    font-weight: 300;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 13.5px;
+}
+
+h1, h2 {
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+h3, h4 {
+    font-weight: 400;
+    letter-spacing: 2.5px
+}
+
+h5, h6 {
+    font-weight: 700;
+    letter-spacing: 2.25px;
+    font-variant: small-caps;
+}
+
+.fontColumn{
+    border-bottom: 1px inset #ffcc95
+}
+
+.fontColumnAdvent{
+    margin-top: 5em;
+    background: #62f8ed;
+    border: 25px dashed #bfbfbf;
+    opacity: .75;
+    padding: 2em;
+    margin-botttom: 5em;
+}
+
+
 /*/                 Colors              /*/
+
+
+
+
+.colors {
+    margin-left: 30%;
+    padding-top: 1em;
+    margin-top: -1em;
+    max-width: 40%;
+    width: 85%;
+    margin-left: 15em;
+
+}
+
+.center {
+    text-align: center;
+    margin-left: 7%;
+    margin-top: -2em;
+ }
 .color {
     float: left;
     position: relative;
     font-size: 18px;
+    border-radius: 2em;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 2em;
+    font-variant: small-caps;
 }
+
 .square1 {
     width: 50px;
     height: 50px;
     background: #00ff99;
-    border: 1px 1px #565656;
+    border: 10px double #565656;
+    border-radius: 5em;
+    box-shadow: 1px 1px 20px #565656;
+}
+
+.square1 p {
+    font-size: 1.1em;
+    font-weight: 900;
+    float: left;
+    position: absolute;
+    line-height: 1;
+    padding-left: 1em;
+    margin-left: 2.1em;
+    margin-top: -.5em;
+    padding-bottom: 1em;
 }
 
 .square2 {
     width: 50px;
     height: 50px;
     background: #565656;
-    border: 1px 1px #00ff99;
+    border: 10px double #00ff99;
+    border-radius: 5em;
+    box-shadow: 1px 1px 20px #565656;
+}
+
+.square2 p {
+    font-size: 1.1em;
+    font-weight: 900;
+    float: left;
+    position: absolute;
+    line-height: 1;
+    padding-left: 1em;
+    margin-left: 2.1em;
+    margin-top: -.5em;
+    padding-bottom: 1em;
 }
 
 
@@ -210,5 +401,84 @@ p, .normal {
     width: 50px;
     height: 50px;
     background: #62f8ed;
-    border: 1px 1px #565656;
+    border: 10px double #565656;
+    border-radius: 5em;
+    box-shadow: 1px 1px 20px #565656;
+}
+
+.square3 p {
+    font-size: 1.1em;
+    font-weight: 900;
+    float: left;
+    position: absolute;
+    line-height: 1;
+    padding-left: 1em;
+    margin-left: 2.1em;
+    margin-top: -.5em;
+    padding-bottom: 1em;
+}
+
+
+.square4 {
+    width: 50px;
+    height: 50px;
+    background: #f5eadf;
+    border: 10px double #565656;
+    border-radius: 5em;
+    box-shadow: 1px 1px 20px #565656;
+}
+
+.square4 p {
+    font-size: 1.1em;
+    font-weight: 900;
+    float: left;
+    position: absolute;
+    line-height: 1;
+    padding-left: 1em;
+    margin-left: 2.1em;
+    margin-top: -.5em;
+    padding-bottom: 1em;
+}
+
+.square5 {
+    width: 50px;
+    height: 50px;
+    background: #FFCC95; 
+    border: 10px double #565656;
+    border-radius: 5em;
+    box-shadow: 1px 1px 20px #565656;
+}
+
+.square5 p {
+    font-size: 1.1em;
+    font-weight: 900;
+    float: left;
+    position: absolute;
+    line-height: 1;
+    padding-left: 1em;
+    margin-left: 2.1em;
+    margin-top: -.5em;
+    padding-bottom: 1em;
+}
+
+.square6 {
+    width: 50px;
+    height: 50px;
+    background: #bfbfbf; 
+    border:10px double #565656; 
+    border-radius: 5em;
+    box-shadow: 1px 1px 20px #565656;
+}
+
+.square6 p {
+    font-size: 1.1em;
+    font-weight: 900;
+    float: left;
+    position: absolute;
+    line-height: 1.2;
+    padding-left: 1em;
+    margin-left: 2.1em;
+    margin-top: -.5em;
+    padding-bottom: 1em;
+    font-variant: small-caps;
 }
