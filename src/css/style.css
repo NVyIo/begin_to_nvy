@@ -272,12 +272,18 @@ p, .normal {
     text-shadow: 1px 1px #f5eadf;
 }
 
+
+.whiteBackground {
+    box-shadow: 10px 11px 10px #565656;
+    background: #ffffff;
+    padding: 1.5em;
+}
+
 /*/         Heading box [Aside]             /*/
 aside {
     float: right;
     border-radius: 2em;
     border: 5px dashed #00ff99;
-
     margin: 1em;
     padding: 1em;
     background: #565656;
@@ -314,14 +320,13 @@ h5, h6 {
 }
 
 .fontColumnAdvent{
-    margin-top: 5em;
+    margin-top: 2.5em;
     background: #62f8ed;
-    border: 25px dashed #bfbfbf;
+    border: 10px dashed #bfbfbf;
     opacity: .75;
     padding: 2em;
-    margin-botttom: 5em;
+    margin-bottom: 25em;
 }
-
 
 /*/                 Colors              /*/
 
