@@ -29,7 +29,7 @@ Colors:
 */
 
 /*/            TYPOGRAPHY: Defaults          /*/
-
+/*
 body, main {
     max-width: 1300px;
     margin: auto;
@@ -53,20 +53,19 @@ li.navi {
 a {
     font-family: 'Questrial', sans-serif;
     text-decoration: none;
-    border-right: 3px solid #00ff99;
     padding-right: 7px;
     padding-left: 5px;
-    color: #565656;
+    color: #00ff96;
     font-size: xx-large;
     background: white;
     border-radius: 5em;
     font-family: 'Arsenal', sans-serif;
-    text-shadow: 1px 1px #00ff99;
+    text-shadow: 1px 1px #565656, 1.5px 1.5px black;
 }
-
+*/
 
 /*/                nvy LOGO & TITLE                    /*/
-
+/*
 .logo {
     padding-top: 4em;
     padding-bottom: 14.2em;
@@ -94,8 +93,8 @@ a {
     text-shadow: 1px 1px #ffcc95;
     margin-top: -1.5em;
     margin-left: -1.5em;
-}
-
+} */
+/*
 .hr1 {
     border-top-left-radius: 5em;
     border-top-right-radius: 5em;
@@ -116,7 +115,7 @@ nav {
     margin-top: -9em;
     margin-right: 1em;
     margin-bottom: 2em;
-}
+} */
 
 /*/                        INTRO                 /*/
 
@@ -163,19 +162,21 @@ p, .normal {
 
 /* Welcome Emphasis */
 
-
+/*
 .emphasis {
     text-align: center;
     font-variant: small-caps;
     font-weight: 900;
     letter-spacing: 1rem;
     text-shadow: 1px 1px #565656, 1.5px 1.5px 6px #565656;
-}
+} */
 
 .intro {
     font-size: 2rem;
     text-align: center;
 }
+
+/*
 .electric {
     color: #00ff99;
 }
@@ -195,7 +196,7 @@ p, .normal {
 .gray {
     color: #565656;
     text-shadow: 1px 1px #62f8ed, 1.5px 1.5px 6px #565656;
-}
+} */
 
 .image1 {
     background-image: url("../images/image1.png");
@@ -203,7 +204,7 @@ p, .normal {
 
 
 /*/                 Fonts              /*/
-
+/*
 .arsenal {
     font-family: 'Arsenal', sans-serif;
 }
@@ -215,12 +216,15 @@ p, .normal {
 .questrial {
     font-family: 'Questrial', sans-serif;
 }
+*/
+/*
 
 .t-shadow {
     text-shadow: 1px 1px #565656;
 
 }
-.strong {
+
+.bold {
     font-weight: 900;
 }
 
@@ -232,7 +236,8 @@ p, .normal {
 .underline{
     border-bottom: 1px solid #565656;
 }
-
+*/
+/*
 .dark {
     background-color: #565656;
     color: #f5eadf;
@@ -272,33 +277,13 @@ p, .normal {
     text-shadow: 1px 1px #f5eadf;
 }
 
-
 .whiteBackground {
     box-shadow: 10px 11px 10px #565656;
     background: #ffffff;
     padding: 1.5em;
 }
-
-/*/         Heading box [Aside]             /*/
-aside {
-    float: right;
-    border-radius: 2em;
-    border: 5px dashed #00ff99;
-    margin: 1em;
-    padding: 1em;
-    background: #565656;
-    color: #eeeeee;
-    font-weight: normal;
-    opacity: .95;
-}
-
-aside li {
-    font-weight: 300;
-    text-decoration: none;
-    list-style-type: none;
-    line-height: 13.5px;
-}
-
+*/
+/*
 h1, h2 {
     font-weight: 300;
     letter-spacing: 3px;
@@ -316,22 +301,24 @@ h5, h6 {
 }
 
 .fontColumn{
-    border-bottom: 1px inset #ffcc95
+    border-bottom: 1px inset #ffcc95;
+    margin-bottom: 2em;
+    padding-bottom: 1em;    
 }
 
 .fontColumnAdvent{
-    margin-top: 2.5em;
+    margin-top: 22.5em;
     background: #62f8ed;
     border: 10px dashed #bfbfbf;
     opacity: .75;
     padding: 2em;
     margin-bottom: 25em;
-}
+} */
 
 /*/                 Colors              /*/
 
 
-
+/*
 
 .colors {
     margin-left: 30%;
@@ -341,13 +328,12 @@ h5, h6 {
     width: 85%;
     margin-left: 15em;
 
-}
-
+} */
+/*
 .center {
     text-align: center;
-    margin-left: 7%;
     margin-top: -2em;
- }
+ } */
 .color {
     float: left;
     position: relative;
