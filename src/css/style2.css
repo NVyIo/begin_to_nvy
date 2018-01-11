@@ -22,7 +22,7 @@ Colors:
     #ffcc95;     Tang
     #565656    Dark Gray
     #bfbfbf;     Light Gray
-    #f5eadf;    OffWhite
+    #f5eadf;     Creme
 
 */
 
@@ -118,8 +118,8 @@ body, main {
  .caps {
      font-variant: small-caps;
  }
+
 .emphasis {
-    text-align: center;
     font-variant: small-caps;
     font-weight: 900;
     letter-spacing: 1rem;
@@ -127,6 +127,7 @@ body, main {
 }
 
     /* Background Styles */
+
     .rounded {
         border-radius: 5em;
         border: 3px inset #00ff99;
@@ -137,7 +138,7 @@ body, main {
         box-shadow: 10px 11px 10px #565656;
     }
 
-    .borderedGray {
+    .borderedGrey {
         border: 1px inset #565656;
         padding: 5px;
     }
@@ -161,8 +162,10 @@ body, main {
     }
 
 
-    /*/         COLOR          Palatte     /*/    
+    /*/         COLOR          Palatte     /*/   
+
     /*      Main    */
+
     .electric {                     /* Electric Nvy */
     color: #00ff99;
     }
@@ -175,8 +178,9 @@ body, main {
     color: #ffcc95;
     }
 
-    .offWhite {                 /* Creme */
+    .creme {                 /* Creme */
     color: #f5eadf;
+    text-shadow: 1px 1px #00ff99;
     }
 
     .gray {                     /* Dark Gray */
@@ -190,6 +194,7 @@ body, main {
     }
 
     /*      Shading   */
+
     .dark {
         background-color: #565656;
         color: #f5eadf;
@@ -203,6 +208,7 @@ body, main {
     }
 
     /*      Background Colors       */
+
     .electricBkgrd {                     /* Electric Nvy */
         background-color: #00ff99;
         }
@@ -215,12 +221,20 @@ body, main {
        background-color: #ffcc95;
         }
     
-    .offWhiteBkgrd {                 /* Creme */
+    .cremeBkgrd {                 /* Creme */
         background-color: #f5eadf;
         }
 
+    .lightBkgrd {                 /* Light Gray */
+        background-color: #bfbfbf;
+        }
+
+    .darkBkgrd {                 /* Dark Gray */
+        background-color: #565656;
+        }
 
     /*/            TYPOGRAPHY: Defaults     /*/
+
     body, main {
       /*  max-width: 1300px; */
         margin: auto;
@@ -292,6 +306,7 @@ body, main {
     margin-top: -1.5em;
     margin-left: -1em;
 }
+
 /*/            Project Logo              /*/   
 
 .logo {
@@ -301,6 +316,7 @@ body, main {
     margin-left: 40%;
     margin-top: 5em;
 }   
+
 /*/            Nav          Defaults     /*/    
 
 nav {
@@ -309,6 +325,7 @@ nav {
     margin-right: 1em;
     margin-bottom: 2em;
 }
+
 /*/            Intro       Section     /*/  
 
 p.intro {
@@ -334,29 +351,8 @@ p.intro {
 
 
 /*/            Colors          Section     /*/
-/*
-.square1 {
-    width: 50px;
-    height: 50px;
-    background: #00ff99;
-    border: 10px double #565656;
-    border-radius: 5em;
-    box-shadow: 1px 1px 20px #565656;
-}
 
-.square1 p {
-    font-size: 1.1em;
-    font-weight: 900;
-    float: left;
-    position: absolute;
-    line-height: 1;
-    padding-left: 1em;
-    margin-left: 2.1em;
-    margin-top: -.5em;
-    padding-bottom: 1em;
-} */
-
-.palatte { /* Color Section title */
+.palatte {              /* Color Section title */
     float: left;
     position: relative;
     font-size: 18px;
@@ -365,91 +361,123 @@ p.intro {
     margin-right: 50px;
     margin-top: 0em;
     margin-left: 5em;
-    /* margin: 2em; */
-    /* font-variant: small-caps; */
+    margin-bottom: 2em;
+    padding-bottom: 1em;
 } 
 
+.colorContainer {
+    float: left;
+    position: relative;
+    font-size: 18px;
+    border-radius: 2em;
+    padding: 25px;
+    margin-left: 7.5em;
+    margin-right: 50px;
+    margin-top: -15em;
+    width: 100%;
+    display: flex;
+}
+
+.colorSquare { 
+    float:left;
+    display: block;
+    border-radius: 5em;
+    clear: both;;
+    margin-left:25.5%;
+}
 .colorBlock {
     float: left;
-    position: relative;
-    font-size: 18px;
-    border-radius: 2em;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 0em;
-    margin-left: 5em;
-    /* margin: 2em; */
-    /* font-variant: small-caps; */
-}
-
-.colorCircle {
-    float: left;
-    position: relative;
-    font-size: 18px;
-    border-radius: 2em;
-    width: 200px;
-    margin-right: 2em;
-    margin-top: 2em;
-    font-variant: small-caps;
-    margin-top: -18.5em;
-    margin-left: 20em;
-}
-
-.colorCircle2 {
-    float: left;
-    position: relative;
-    font-size: 18px;
-    border-radius: 2em;
-    width: 200px;
-    margin-right: 2em;
-    font-variant: small-caps;
-    margin-left: 15em;
-    clear: right;
-}
-/*
-.colorCircle2 {
-    float: left;
-    font-size: 18px;
-    font-variant: small-caps;
-    width: 25%;
- 
-    border-radius: 2em;
-    width: 200px; 
-    margin-left: 2em;*
-    margin-right: 2em;
-}
- */
-
-
- .swatch {
-    width: 50px;
-    height: 50px;
-    border: 10px double #565656;
+    display: block;
     border-radius: 5em;
+    clear: both;
+    margin-left: 5em;
+}
+
+.colorSwatch {
+    border: 12px double #565656;
     box-shadow: 1px 1px 20px #565656;
-    margin-bottom: 3em;
+    width: 75px;
+    height: 75px;
+    border-radius: 5em;
+    margin: .3em;
+}
+
+.colorSwatchDark {
+    border: 12px double #00ff99;
+    box-shadow: 1px 1px 20px #565656;
+    width:  75px;
+    height: 75px;
+    border-radius: 5em;
+    margin: .3em;   
 }
 
 .colorInfo p {
+    float: left;
     font-size: 1.1em;
     font-weight: 900;
-    float: left;
-    position: absolute;
     line-height: 1;
-    padding-left: 1.5em;
-    margin-left: 2.1em;
-    margin-top: 0.5em;
-    padding-bottom: 1em;
+    margin: -.5em 0 0 3em;
+    padding: 1em;
+    width: 100%;
 }
+
+/*/            Font         Section     /*/
+
+.fontContainer {
+    width: 100%;
+    height: 100%;
+}
+
+
+.fontRow ul li {
+    list-style: none;
+   margin: 1.5em 0 1em 0;
+   border-bottom: 1px inset #FFCC95;
+}
+
+.fontBox {
+    float: left;
+    margin-right: 15%;
+    padding: 5px;
+}
+
+.emphasisBox {
+    float: left;
+    margin-right: 15%;
+}
+
+.backgroundBox {
+    float: left;
+    margin-right: 15%;
+    }
+
+ .backgroundBox li{
+     margin-top: 1em;
+    }
+    
+   .headlineBox {
+        float: left;
+        margin-right: 15%;
+    }
+    
 
 /*/            Images      Defaults     /*/
 /*/            Extras     Defaults     /*/  
-    /*      Aside    */
-    /*     Menus   */
-    /*      Sidemenu   */
+    /*     Aside          */
+    /*     Menus        */
+    /*     Sidemenu   */
     /*     CodeBlock   */
-    /*      BlockQuote   */
+    /*     BlockQuote */
+
+    /*      Breaks          */
+
+    .break {
+        margin: .1em 0;
+        clear: both;
+    }
+
     /*      HR / Lines   */
+
     .hr1 {
         border-top-left-radius: 5em;
         border-top-right-radius: 5em;
@@ -570,160 +598,3 @@ aside li {
 
 */
 
-/*
-.colors {
-    margin-left: 30%;
-    padding-top: 1em;
-    margin-top: -1em;
-    max-width: 40%;
-    width: 85%;
-    margin-left: 15em;
-
-}
-/*
-.center {
-    text-align: center;
-    margin-top: -2em;
- } */
-
-
- /*
-.color {
-    float: left;
-    position: relative;
-    font-size: 18px;
-    border-radius: 2em;
-    width: 200px;
-    margin-right: 50px;
-    margin-top: 2em;
-    font-variant: small-caps;
-}
-
-.square1 {
-    width: 50px;
-    height: 50px;
-    background: #00ff99;
-    border: 10px double #565656;
-    border-radius: 5em;
-    box-shadow: 1px 1px 20px #565656;
-}
-
-.square1 p {
-    font-size: 1.1em;
-    font-weight: 900;
-    float: left;
-    position: absolute;
-    line-height: 1;
-    padding-left: 1em;
-    margin-left: 2.1em;
-    margin-top: -.5em;
-    padding-bottom: 1em;
-}
-
-.square2 {
-    width: 50px;
-    height: 50px;
-    background: #565656;
-    border: 10px double #00ff99;
-    border-radius: 5em;
-    box-shadow: 1px 1px 20px #565656;
-}
-
-.square2 p {
-    font-size: 1.1em;
-    font-weight: 900;
-    float: left;
-    position: absolute;
-    line-height: 1;
-    padding-left: 1em;
-    margin-left: 2.1em;
-    margin-top: -.5em;
-    padding-bottom: 1em;
-}
-
-
-.square3 {
-    width: 50px;
-    height: 50px;
-    background: #62f8ed;
-    border: 10px double #565656;
-    border-radius: 5em;
-    box-shadow: 1px 1px 20px #565656;
-}
-
-.square3 p {
-    font-size: 1.1em;
-    font-weight: 900;
-    float: left;
-    position: absolute;
-    line-height: 1;
-    padding-left: 1em;
-    margin-left: 2.1em;
-    margin-top: -.5em;
-    padding-bottom: 1em;
-}
-
-
-.square4 {
-    width: 50px;
-    height: 50px;
-    background: #f5eadf;
-    border: 10px double #565656;
-    border-radius: 5em;
-    box-shadow: 1px 1px 20px #565656;
-}
-
-.square4 p {
-    font-size: 1.1em;
-    font-weight: 900;
-    float: left;
-    position: absolute;
-    line-height: 1;
-    padding-left: 1em;
-    margin-left: 2.1em;
-    margin-top: -.5em;
-    padding-bottom: 1em;
-}
-
-.square5 {
-    width: 50px;
-    height: 50px;
-    background: #FFCC95; 
-    border: 10px double #565656;
-    border-radius: 5em;
-    box-shadow: 1px 1px 20px #565656;
-}
-
-.square5 p {
-    font-size: 1.1em;
-    font-weight: 900;
-    float: left;
-    position: absolute;
-    line-height: 1;
-    padding-left: 1em;
-    margin-left: 2.1em;
-    margin-top: -.5em;
-    padding-bottom: 1em;
-}
-
-.square6 {
-    width: 50px;
-    height: 50px;
-    background: #bfbfbf; 
-    border:10px double #565656; 
-    border-radius: 5em;
-    box-shadow: 1px 1px 20px #565656;
-}
-
-.square6 p {
-    font-size: 1.1em;
-    font-weight: 900;
-    float: left;
-    position: absolute;
-    line-height: 1.2;
-    padding-left: 1em;
-    margin-left: 2.1em;
-    margin-top: -.5em;
-    padding-bottom: 1em;
-    font-variant: small-caps;
-} */
