@@ -17,12 +17,12 @@ Font:
 
 Colors:
 
-    #00ff99;     Electric nvy
-    #62f8ed;     SubBluminal 
-    #ff006fab;  Accentuate
-    #565656    Dark Gray
-    #bfbfbf;     Light Gray
-        Creme
+    #00ff99;     |    Electric nvy  [  rgb(0, 255, 153)   ]
+    #62f8ed;     |    SubBluminal 
+    #ff006fab;  |   Accentuate [  rgba(255, 0, 111, 0.6705882352941176)  ]
+    #565656    |   Dark Gray
+    #bfbfbf;    |   Light Gray
+    #f5eadf;   |   Creme
     
     
     #ffcc95;     accent [ Taken Out 1-13 ] 
@@ -415,18 +415,16 @@ p.intro {
 }
 
 .colorInfo p {
-    float: left;
-    font-size: 1.1em;
-    font-weight: 900;
-    line-height: 1;
-    margin: 1.75em 0 0 3em;
-    padding: 1em;
-    width: 250px;
-    text-shadow: 0.5px 0.5px #bfbfbf, 1px 1px 20px #565656, 1.5px 1.5px #565656, 2px 2px black, 2.5px 2.5px #00ff99;
-    color: #565656;
-    z-index: 99;
-    color: ghostwhite;
-    
+        float: left;
+        font-weight: 900;
+        line-height: 1;
+        /* margin: 1.75em 0 0 3em; */
+        padding: 1em;
+        width: 250px;
+        text-shadow: 0.5px 0.5px #292299, 1px 1px 20px #565656, 1.5px 1.5px #00ff99, 2px 2px black, 2.5px 2.5px rgba(255, 0, 111, 0.6705882352941176);
+        color: #565656;
+        z-index: 99;
+        letter-spacing: 2px;
 }
 
 /*/            Font         Section     /*/
@@ -437,7 +435,6 @@ p.intro {
     margin-top: -5em;
 }
 
-
 #fontHeading {
     margin-left: 1em;
     margin-top: 1.5em;
@@ -445,7 +442,6 @@ p.intro {
 
 .fontRow {
     margin-left: .7em;
-
 }
 
 .fontRow.subHeading h2 {
@@ -469,6 +465,7 @@ p.intro {
     margin-top: -23.5em;
     line-height: 4.7em;
 }
+
 .notecard {
     width: 100%;
 }
@@ -490,22 +487,28 @@ p.intro {
 }
 
 .emphasisTitle {
-    font-size: 1.5em;
-    padding-bottom: 20px;
-    margin-top: -4px;
-    margin-left: 1em;
+    font-size: 2em;
+    margin-top: -10px;
+    margin-left: 2em;
+   text-shadow: 1px 1px #565656, 1.5px 1.5px #00ff99, 2px 0px #565656;
+
 }
 
 ul.emphasisList {
-    margin-top: -3em;
-    padding-top: .5em;
-}
+        margin-top: -3em;
+        padding-top: 1em;
+        margin-left: 3.5em;
+    }
 
 .emphasisBox li {
     line-height: 2.1em;
     list-style: none;
     margin-left: 10px;
     margin-top: 15px;
+}
+
+#t-shadow {
+    line-height: 2.5em;
 }
 
 li.linked {
@@ -526,6 +529,7 @@ li.linked a {
     text-shadow: 1px 1px #565656, 1.5px 1.5px #ff006fab;
 }
 
+
 /*          Background  Box         */
 .backgroundBox {
     float: left;
@@ -537,15 +541,17 @@ li.linked a {
 }
 
 .backgroundTitle {
-    font-size: 1.5em;
-    padding-bottom: 20px;
-    margin-top: -4px;
+    font-size: 2em;
+    padding-bottom: 8px;
+    margin-top: -10px;
     margin-left: 1em;
+    text-shadow: 1px 1px #565656, 1.5px 1.5px #00ff99, 2px 0px #565656;
 }
+
 
 ul.backgroundList {
     margin-top: -3em;
-    padding-top: .5em;
+    padding-top: .2em;
 }
 
 .backgroundBox li {
@@ -563,7 +569,7 @@ ul.backgroundList {
 
 /*      Headline Box        */
 
-.headlineBox {
+    .headlineBox {
         float: left;
         z-index: 98;
         background: transparent;
@@ -574,15 +580,16 @@ ul.backgroundList {
     }
     
     .headlineTitle {
-        font-size: 1.5em;
-        padding-bottom: 20px;
-        margin-top: -4px;
+        font-size: 2em;
+        padding-bottom: 10px;
+        margin-top: -8px;
         margin-left: 1em;
+        text-shadow:  1px 1px #565656, 1.5px 1.5px #00ff99, 2px 0px #565656;
     }
     
     ul.headlineList {
-        margin-top: -3em;
-        padding-top: .5em;
+        margin-top: -2em;
+
     }
     
     .headlineBox li {
@@ -593,6 +600,80 @@ ul.backgroundList {
     }
     
 /*/            Images      Defaults     /*/
+/* Default image --  */
+.imagesRow {
+    width:100%;
+}
+#imageTitle {
+    margin-left: 1em;
+    text-shadow: 1px 1px white, 1.5px 1.5px #565656, 2.0px 2.0px #00ff99;
+}     
+
+.imageOne {
+    background-image: url("../images/placeholder.png");
+    width: 350px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin-left: 5px;
+    margin-right: 1em;
+}
+
+.imageOne {
+    background-image: url("../images/placeholder.png");
+    width: 350px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin-left: 5px;
+    margin-right: 1em;
+}
+
+.imageTwo {
+    float: left;
+    background-image: url("../images/placeholder.png");
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin-left: 5px;
+    margin-right: 1em;
+    border-radius: 2em;
+    border: 1px solid #565656;
+}
+
+.imageThree {
+    float: left;
+    background-image: url("../images/placeholder.png");
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin-left: 5px;
+    margin-right: 1em;
+    border: 1px solid #565656;
+    box-shadow: 10px 10px 10px #565656;
+}
+/* Make snippets
+opacity
+parallax
+overlay
+burned
+translucent 
+*/
+
 /*/            Extras     Defaults     /*/  
     /*     Aside          */
     /*     Menus        */
