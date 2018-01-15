@@ -601,6 +601,10 @@ ul.backgroundList {
     
 /*/            Images      Defaults     /*/
 /* Default image --  */
+
+.imageBox {
+    width: 100%;
+}
 .imagesRow {
     width:100%;
 }
@@ -611,21 +615,36 @@ ul.backgroundList {
 
 .imageOne {
     background-image: url("../images/placeholder.png");
-    width: 350px;
-    height: 350px;
-    background-size: contain;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     display: block;
     margin-left: 5px;
     margin-right: 1em;
+    border-radius: 9em;
+    border: 1px inset black;
 }
-
-.imageOne {
+.imageOneOverlay {
     background-image: url("../images/placeholder.png");
-    width: 350px;
-    height: 350px;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin-left: 5px;
+    margin-right: 1em;
+    border-radius: 9em;
+    border: 1px inset black;
+}
+.imageTwo {
+    background-image: url("../images/placeholder.png");
+    width: 200px;
+    height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -633,9 +652,10 @@ ul.backgroundList {
     display: block;
     margin-left: 5px;
     margin-right: 1em;
+    margin-top: 1em;
 }
 
-.imageTwo {
+.imageThree {
     float: left;
     background-image: url("../images/placeholder.png");
     width: 350px;
@@ -651,7 +671,7 @@ ul.backgroundList {
     border: 1px solid #565656;
 }
 
-.imageThree {
+.imageFour{
     float: left;
     background-image: url("../images/placeholder.png");
     width: 600px;
