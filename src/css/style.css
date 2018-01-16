@@ -263,7 +263,7 @@ body, main {
         text-decoration: none;
         padding-right: 7px;
         padding-left: 5px;
-        color: #00ff96;
+        color: #00ff99;
         font-size: xx-large;
         background: white;
         border-radius: 5em;
@@ -600,20 +600,43 @@ ul.backgroundList {
     }
     
 /*/            Images      Defaults     /*/
-/* Default image --  */
+/* Default image  is "   url(../images/image1.png);--  */
 
-.imageBox {
-    width: 100%;
-}
 .imagesRow {
     width:100%;
+    margin-left: 13%;
+    margin-bottom: 1.5em;
+    z-index: 97;
 }
+
 #imageTitle {
     margin-left: 1em;
     text-shadow: 1px 1px white, 1.5px 1.5px #565656, 2.0px 2.0px #00ff99;
 }     
 
+.imageText {
+    margin-top: -2em;
+    text-align: center;
+    font-variant: small-caps;
+    display: block;
+}
+
+#sqImageText {
+    margin-top: -2.8em;
+}
+
+#largeImageText {
+    margin-top: -4em;
+}
+
+.image {
+    margin-left: .5em;
+    margin-right: .5em;
+    clear: left;
+}
+
 .imageOne {
+    float: left;
     background-image: url("../images/placeholder.png");
     width: 150px;
     height: 150px;
@@ -623,25 +646,13 @@ ul.backgroundList {
     position: relative;
     display: block;
     margin-left: 5px;
-    margin-right: 1em;
+    margin-right: 2em;
     border-radius: 9em;
-    border: 1px inset black;
+    border: 1px dashed #565656;
 }
-.imageOneOverlay {
-    background-image: url("../images/placeholder.png");
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    display: block;
-    margin-left: 5px;
-    margin-right: 1em;
-    border-radius: 9em;
-    border: 1px inset black;
-}
+
 .imageTwo {
+    float: left;
     background-image: url("../images/placeholder.png");
     width: 200px;
     height: 200px;
@@ -651,41 +662,45 @@ ul.backgroundList {
     position: relative;
     display: block;
     margin-left: 5px;
-    margin-right: 1em;
+    margin-right: 3em;
     margin-top: 1em;
+    border: 1px dashed #565656;
 }
 
 .imageThree {
     float: left;
     background-image: url("../images/placeholder.png");
-    width: 350px;
+    width: 300px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin-left: 5px;
+    margin-right: 3em;
+    border-radius: 2em;
+    border: 1px dashed #565656;
+}
+
+.imageFour{
+    float: left;
+    background-image: url("../images/placeholder.png");
+    width: 500px;
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     display: block;
-    margin-left: 5px;
-    margin-right: 1em;
-    border-radius: 2em;
-    border: 1px solid #565656;
-}
-
-.imageFour{
-    float: left;
-    background-image: url("../images/placeholder.png");
-    width: 600px;
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    display: block;
-    margin-left: 5px;
-    margin-right: 1em;
-    border: 1px solid #565656;
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    border: 1px dashed #565656;
     box-shadow: 10px 10px 10px #565656;
 }
+
+
 /* Make snippets
 opacity
 parallax
@@ -695,11 +710,72 @@ translucent
 */
 
 /*/            Extras     Defaults     /*/  
-    /*     Aside          */
-    /*     Menus        */
+
+
+.extrasBox {
+    width: 100%;
+    margin-left: 2em;
+}
+
+.extasRow {
+    width:100%;
+    margin-left: 15%;
+    margin-bottom: 1.5em;
+}
+
+#extrasTitle {
+    margin-left: 1em;
+    text-shadow: 1px 1px white, 1.5px 1.5px #565656, 2.0px 2.0px #00ff99;
+}
+
+#extraHeading {
+    margin-left: .5em;
+}
+
+
+
+
+    /*     Aside   / Sidemenu       */
+    /*     Lists [UL / OL ]       */
     /*     Sidemenu   */
     /*     CodeBlock   */
+ .codeBlock {
+        margin-left: -4em;
+        box-shadow: 1px 1px #00ff99;
+        max-width: 300px;
+        min-width: 250px;
+}
+
+pre {
+    background: #bfbfbf;
+    margin-left:    2em;    
+    width: min-content;
+
+}
+
+code {
+    color: #565656;
+    background: #bfbfbf;
+}
+
     /*     BlockQuote */
+    .blockQuote {
+        width: 60%;
+    }
+
+    blockquote {
+        font-size: 2em;
+        color: #565656;
+        font-weight: 500;
+        font-style: italic;
+        font-family: 'Advent Pro', sans-serif;
+        border-bottom-right-radius: 1em;
+        border-bottom: 2px dashed #565656;
+        border-right: 2px dashed #565656;
+        background-color: transparent;
+        text-shadow: 1px 1px white, 1.5px 1.5px #565656, 2px 2px #00ff99;
+        box-shadow: 5px 4px 20px #00ff99;
+    }
     /*      Buttons     */
 
     /*      Breaks          */
