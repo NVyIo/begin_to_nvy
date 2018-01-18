@@ -10,9 +10,7 @@ Font:
     Style link:    <
         link href="https://fonts.googleapis.com/css?family=Advent+Pro|Arsenal|Questrial" rel="stylesheet">
 
-    Headline:   font-family: 'Arsenal', sans-serif;
-    Normal:     font-family: 'Questrial', sans-serif; 
-    Header;     font-family: 'Advent Pro', sans-serif;:
+c
     Footer:      font-family: 'Advent Pro', sans-serif;:(Reserve for philosopher)
 
 Colors:
@@ -709,6 +707,15 @@ burned
 translucent 
 */
 
+
+
+/*      Backgrounds         */
+
+.weave {
+    background: linear-gradient(45deg, rgb(0, 255, 153) 12%, transparent 0, transparent 88%, #62f8ed 0), linear-gradient(135deg, transparent 37%, #eeeeee 0, #a85 63%, transparent 0), linear-gradient(45deg, transparent 37%, #ffcc95 0, #00ff99 63%, transparent 0) rgba(0, 255, 153, 0.1);
+    background-size: 25px 25px;
+}
+
 /*/            Extras     Defaults     /*/  
 
 
@@ -732,30 +739,66 @@ translucent
     margin-left: .5em;
 }
 
-
-
-
+/*           Hanging Title              */
+.extraHanging {
+    margin-top: -2em;
+    font-weight: 900;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+    padding-bottom: -3em;
+    background: white;
+    text-align: center;
+}
     /*     Aside   / Sidemenu       */
+    .aside {
+        float: right;
+        border-radius: 2em;
+        border: 5px dashed #00ff99;
+        margin: 5em;
+        padding: 1.5em;
+        background: #565656;
+        color: #eeeeee;
+        font-weight: normal;
+        opacity: .9;
+    }
+    
+   .aside p {
+        font-weight: 300;
+        text-decoration: none;
+        list-style-type: none;
+        line-height: 13.5px;
+        border-bottom: 1px dashed #ffcc95;
+    }
+    
+    */
     /*     Lists [UL / OL ]       */
     /*     Sidemenu   */
     /*     CodeBlock   */
- .codeBlock {
-        margin-left: -4em;
-        box-shadow: 1px 1px #00ff99;
-        max-width: 300px;
-        min-width: 250px;
-}
+
+    #code {
+        background: rgba(0, 255, 153, 0.1);
+    }
+
+    .codeBlock {
+        width: fit-content;
+        padding: 0 2em;
+        margin-left: 2em;
+        margin-bottom: 5em;
+       /* max-width: 350px;
+        min-width: 250px; */
+        border: 4px dashed #00ff99;
+        border-radius: 1.2em;
+    }
 
 pre {
-    background: #bfbfbf;
-    margin-left:    2em;    
     width: min-content;
-
 }
 
 code {
     color: #565656;
-    background: #bfbfbf;
+    font-family: 'Arsenal', sans-serif;
+
 }
 
     /*     BlockQuote */
@@ -764,19 +807,33 @@ code {
     }
 
     blockquote {
-        font-size: 2em;
+        font-size: 1.5em;
         color: #565656;
         font-weight: 500;
         font-style: italic;
-        font-family: 'Advent Pro', sans-serif;
+        font-family: 'Questrial', sans-serif;
         border-bottom-right-radius: 1em;
         border-bottom: 2px dashed #565656;
         border-right: 2px dashed #565656;
         background-color: transparent;
         text-shadow: 1px 1px white, 1.5px 1.5px #565656, 2px 2px #00ff99;
         box-shadow: 5px 4px 20px #00ff99;
+        width: fit-content;
+        padding-right: 1em;
+        padding-left: .2em;
     }
     /*      Buttons     */
+
+    button {
+        font-family: 'Questrial', sans-serif;
+        margin-right: 1em;
+        padding: 15px;
+        border-radius: .5em;
+        border: 2px outset #bfbfbf;
+        box-shadow: 6px 6px 10px #565656;
+        margin-top: 1em;
+    }
+
 
     /*      Breaks          */
 
@@ -785,6 +842,29 @@ code {
         clear: both;
     }
 
+    /*      Form               */
+    .form {
+        float: left;
+        margin: 2em;
+        background: #00ff99;
+        opacity: .75;
+        border-radius: 2em;
+    }
+
+    form {
+        margin: -5em 5em 5em;
+        opacity: .85;
+    }
+
+    input {
+        margin: .5em 0;
+    }
+
+    .specialButton {
+        color: white;
+        border: 1px inset white;
+        padding: 15px;
+    }
     /*      HR / Lines   */
 
     .hr1 {
@@ -804,7 +884,10 @@ code {
 
 /*/           FOOTER to nvy        /*/  
 
-
+.footer {
+    margin-top: 1em;
+    margin-bottom: 5em; 
+}
 
 /*______________EXTRAS__________________*/
 
