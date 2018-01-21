@@ -715,8 +715,21 @@ translucent
     background: linear-gradient(45deg, rgb(0, 255, 153) 12%, transparent 0, transparent 88%, #62f8ed 0), linear-gradient(135deg, transparent 37%, #eeeeee 0, #a85 63%, transparent 0), linear-gradient(45deg, transparent 37%, #ffcc95 0, #00ff99 63%, transparent 0) rgba(0, 255, 153, 0.1);
     background-size: 25px 25px;
 }
+/*/           Table of Contents     /*/  
 
+#toc {
+    float: right;
+    background: #f5eadf;
+    color:#565656;
+    font-family: 'Arsenal', sans-serif;
+    z-index: 99;    
+}
+
+.toc {
+    border-bottom: 1px dashed #f5eadf;
+}
 /*/            Extras     Defaults     /*/  
+
 
 
 .extrasBox {
@@ -771,35 +784,11 @@ translucent
         border-bottom: 1px dashed #ffcc95;
     }
     
-    */
+    
     /*     Lists [UL / OL ]       */
     /*     Sidemenu   */
-    /*     CodeBlock   */
 
-    #code {
-        background: rgba(0, 255, 153, 0.1);
-    }
 
-    .codeBlock {
-        width: fit-content;
-        padding: 0 2em;
-        margin-left: 2em;
-        margin-bottom: 5em;
-       /* max-width: 350px;
-        min-width: 250px; */
-        border: 4px dashed #00ff99;
-        border-radius: 1.2em;
-    }
-
-pre {
-    width: min-content;
-}
-
-code {
-    color: #565656;
-    font-family: 'Arsenal', sans-serif;
-
-}
 
     /*     BlockQuote */
     .blockQuote {
@@ -822,19 +811,7 @@ code {
         padding-right: 1em;
         padding-left: .2em;
     }
-    /*      Buttons     */
-
-    button {
-        font-family: 'Questrial', sans-serif;
-        margin-right: 1em;
-        padding: 15px;
-        border-radius: .5em;
-        border: 2px outset #bfbfbf;
-        box-shadow: 6px 6px 10px #565656;
-        margin-top: 1em;
-    }
-
-
+ 
     /*      Breaks          */
 
     .break {
@@ -842,6 +819,53 @@ code {
         clear: both;
     }
 
+    .extrasBreak{
+        width: 35%;
+        float: left;
+        clear: right;
+        position: relative;
+    }
+
+    /*    Signature Block   */
+    .signatureBlock, .signature, .sigName, .sigTitle {
+        border: 1px inset purple;
+        font-family: 'Arsenal', sans-serif;
+        font-size: 1em;
+        line-height: 1;
+    }
+
+    .signatureBlock {
+        width: 30%;
+        float: right;
+    }
+
+    .signature {
+        border: 2px double #00ff99;
+        line-height: 0;
+    }
+
+    /*     CodeBlock   */
+
+    .codeBlock {
+        width: fit-content;
+        padding: 0 2em;
+        margin-left: 2em;
+        margin-bottom: 5em;
+       /* max-width: 350px;
+        min-width: 250px; */
+        border: 4px dashed #00ff99;
+        border-radius: 1.2em;
+    }
+
+pre {
+    width: min-content;
+}
+
+code {
+    color: #565656;
+    font-family: 'Arsenal', sans-serif;
+
+}
     /*      Form               */
     .form {
         float: left;
@@ -858,6 +882,7 @@ code {
 
     input {
         margin: .5em 0;
+        font-family: 'Advent Pro', sans-serif;
     }
 
     .specialButton {
@@ -865,6 +890,28 @@ code {
         border: 1px inset white;
         padding: 15px;
     }
+
+    .form2 {
+        float: left;
+        margin: 2em;
+        opacity: .75;
+        border-radius: 2em;
+    }
+
+   /*      Buttons     */
+
+   button {
+    font-family: 'Questrial', sans-serif;
+    margin-right: 1em;
+    padding: 15px;
+    border-radius: .5em;
+    border: 2px outset #bfbfbf;
+    box-shadow: 6px 6px 10px #565656;
+    margin-top: 1em;
+}
+
+
+
     /*      HR / Lines   */
 
     .hr1 {
@@ -882,11 +929,13 @@ code {
         margin-bottom: 5em;
     }
 
+
 /*/           FOOTER to nvy        /*/  
 
 .footer {
     margin-top: 1em;
     margin-bottom: 5em; 
+    clear: both;
 }
 
 /*______________EXTRAS__________________*/
