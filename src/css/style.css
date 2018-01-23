@@ -731,14 +731,40 @@ translucent
 
 /*/            Slider  Box        /*/
 
-.sliderBox {
+.sliderContainer {
     width: 100%;
     margin-left: 2em;
+    border: 1px solid orange;
 }
 
-.sliderInner {
+.sliderMain {
     margin: .5em;
+    border: 1px outset orangered;
 }
+
+.mainImg {
+    border: 1px outset orangered;
+}
+
+#activeImg {
+    border: 1px outset yellowgreen;
+    border-radius: 1em;
+}
+
+.sliderImages {
+    border: 1px inset yellow;
+}
+
+.sliderImg {
+    border: 1px outset #f5eadf; 
+    border-radius: 2em;
+    width: 300px;
+    height: 200px; 
+    margin-left: .5em;
+    box-shadow: 10px 11px 10px #565656;
+}
+
+
 
 /*/            Extras     /*/  
 
