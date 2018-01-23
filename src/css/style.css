@@ -728,7 +728,19 @@ translucent
 .toc {
     border-bottom: 1px dashed #f5eadf;
 }
-/*/            Extras     Defaults     /*/  
+
+/*/            Slider        /*/
+
+.sliderBox {
+    width: 100%;
+    margin-left: 2em;
+}
+
+.sliderInner {
+    margin: .5em;
+}
+
+/*/            Extras     /*/  
 
 
 
@@ -744,6 +756,11 @@ translucent
 }
 
 #extrasTitle {
+    margin-left: 1em;
+    text-shadow: 1px 1px white, 1.5px 1.5px #565656, 2.0px 2.0px #00ff99;
+}
+
+.extrasTitle h3 {
     margin-left: 1em;
     text-shadow: 1px 1px white, 1.5px 1.5px #565656, 2.0px 2.0px #00ff99;
 }
