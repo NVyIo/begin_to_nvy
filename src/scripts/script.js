@@ -6,3 +6,6 @@ const nvy = console.log("This project is just beginning to be nvy'd. Consult the
 
 
 nvy(); 
+
+
+/*/ Slider Script /*/
