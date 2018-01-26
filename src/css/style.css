@@ -40,6 +40,7 @@ body, main {
       font-family: 'Questrial', sans-serif;
       line-height: 2;
       font-size: 1.5rem;
+      padding-bottom: 1em;
   }
   
   li.navi {
@@ -733,10 +734,12 @@ translucent
 /*/            Slider  Box        /*/
 
 .sliderContainer {
-width: 100%;
-margin-left: 5%;
-/* padding-left: 4em; */
-margin-bottom: 3em;
+    width: 100%;
+    margin-left: 7%;
+    padding: 3em 1em;
+    border-radius: 2em;
+    margin-bottom: 3em;
+    border: 0.5em dashed #bfbfbf;
 }
 
 .sliderInner {
@@ -765,6 +768,7 @@ border-radius: 1em;
 }
 
 img#activeImg {
+    margin-left: 5em;
     margin-bottom: 1em;
     max-height: 350px;
     width: 600px;
@@ -843,6 +847,7 @@ img#activeImg {
     margin-left: .5em;
 }
 
+
 /*           Hanging Title              */
 .extraHanging {
     margin-top: -2em;
@@ -877,10 +882,90 @@ img#activeImg {
     
     
     /*     Lists [UL / OL ]       */
-    /*     Sidemenu   */
 
+    .ol {
+        /* padding: 5px 15px 25px 15px; */
+        padding: 5px 1px;
+        width: fit-content;
+        box-shadow: 4px 4px 10px #00ff99;
+        border-radius: .4em;
+        margin-bottom: 1em;
+    }
 
+    .ol ol {
+        text-decoration: none;
+    }
 
+    .ol li {
+        font-family: 'Questrial', sans-serif;
+        font-size: .9em;
+        letter-spacing: 1px;
+        border-bottom: 0.1em inset;
+        /* width: 100%; */
+        font-weight: 700;
+        padding-right: .9em;
+    }
+
+    .ol li a {
+        font-family: 'Questrial', sans-serif;
+        text-decoration: none;
+        font-size: .9em;
+        color: #bfbfbf;
+        text-shadow: .5px  .5px#565656, 1px 1px #00ff99;
+        font-weight: 700;
+    }
+
+    .ul {
+        /* padding: 5px 15px 25px 15px; */
+        padding: 15px;
+        width: fit-content;
+        box-shadow: 4px 4px 10px #ff006fab;
+        border-radius: .4em;
+        margin-bottom: 1em;
+    }
+
+    .ul ul {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .ul li {
+        font-family: 'Questrial', sans-serif;
+        font-size: .9em;
+        letter-spacing: 1px;
+        border-bottom: 0.1em inset; /*
+        width: 100%;*/
+        font-weight: 700;
+        padding-right: .9em;
+        list-style-type: none;
+        line-height: 1.5em;
+    }
+
+    .ul li a {
+        font-family: 'Questrial', sans-serif;
+        text-decoration: none;
+        font-size: .9em;
+        color: #bfbfbf;
+        text-shadow: .5px  .5px#565656, 1px 1px #00ff99;
+        font-weight: 700;
+    }
+
+    /*ul theme float */
+
+    .ul.theme {
+        float:right;
+        position: relative;
+        clear: left;
+    }
+    /*      Notecards       */
+   p.blogPost {
+        max-width: 1180px;
+        line-height: 2;
+        text-decoration-line: underline;
+        border-radius: 2em;
+        text-decoration-color: rgba(255, 0, 111, 0.6705882352941176);
+    }
+    
     /*     BlockQuote */
     .blockQuote {
         width: 60%;

@@ -35,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/NVyIo/begin_to_nvy/issues"
   },
-  "homepage": "https://github.com/NVyIo/begin_to_nvy#readme"
+  "homepage": "https://github.com/NVyIo/begin_to_nvy#readme",
+  "dependencies": {
+
+  }
 }

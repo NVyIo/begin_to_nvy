@@ -18,6 +18,20 @@ let opacity = 0.6;  //opacity setting
 
 for each image listen if clicked */
 
+
+array.forEach(element => {
+    
+});
+
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+
+}
+
+
+
+
 for (i = 0; i <= 10; i ++) {
     
 } 
