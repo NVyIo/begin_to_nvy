@@ -1003,23 +1003,51 @@ img#activeImg {
     }
 
     /*    Signature Block   */
-    .signatureBlock, .signature, .sigName, .sigTitle {
-        border: 1px inset purple;
-        font-family: 'Arsenal', sans-serif;
-        font-size: 1em;
-        line-height: 1;
-    }
-
     .signatureBlock {
-        width: 30%;
+        border-radius: 2em;
+        width: fit-content;
+        padding: 0em 1em 1.5em 1em;
         float: right;
+        clear: left;
+        margin-right: 45%;
+        margin-left:  2em;
+        color: #565656;
+        font-size: 1em;
+        box-shadow: 9px 8px 9px #565656;
+        border: 5px dashed #f5eadf;
     }
 
-    .signature {
-        border: 2px double #00ff99;
-        line-height: 0;
+    .signatureBlock p {
+        font-size: .9em;
     }
 
+    .slogan {
+        font-style: italic;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .sigLabel {
+        font-size: .9em;
+        color: #565656;
+        font-weight: 300;
+    }
+
+    .email a, .phone a {
+        font-size: 1em;
+        letter-spacing: 0.3em;
+        color: #565656;
+        text-shadow: 1px 1px #00ff99;
+    }
+    .sigSocImg {
+        width: 10px;
+        height: 10px;
+    }
+    .gh {
+        background-image: url("..src/images/soc/github.png");
+    }
     /*     CodeBlock   */
 
     .codeBlock {
