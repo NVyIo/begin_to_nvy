@@ -1015,12 +1015,18 @@ img#activeImg {
         font-size: 1em;
         box-shadow: 9px 8px 9px #565656;
         border: 5px dashed #f5eadf;
+        margin-bottom: 2em;
     }
 
     .signatureBlock p {
         font-size: .9em;
     }
 
+    .sigPanel {
+        margin: 0;
+        padding: 0;
+    }
+    
     .slogan {
         font-style: italic;
         margin: 0;
@@ -1041,13 +1047,37 @@ img#activeImg {
         color: #565656;
         text-shadow: 1px 1px #00ff99;
     }
+
     .sigSocImg {
-        width: 10px;
-        height: 10px;
+        background: #565656c4;
+        opacity: 3;
+        /* padding-top: .5px; */
+        padding-bottom: 6.5em;
+        margin-bottom: -28px;
+        padding: 1em;
+        border-bottom-left-radius: 2em;
+        border-bottom-right-radius: 2em;
+        margin-left: -1em;
+        margin-right: -1em;
+        box-shadow: 2px 2px #565656;
+        /* border: .5px dashed white; */
     }
-    .gh {
-        background-image: url("..src/images/soc/github.png");
+
+    .sigSocImg img:first-of-type{
+        margin-left: 20%;
     }
+    .sigSocImg img {
+        width: 40px;
+        height: 40px;
+        border-radius: 5em;
+        box-shadow: 1px 1px 10px #00ff99;
+        text-align: center;
+        line-height: 3;
+        margin-right: .5em;
+    }
+
+
+ 
     /*     CodeBlock   */
 
     .codeBlock {
@@ -1135,111 +1165,18 @@ code {
 
 
 /*/           FOOTER to nvy        /*/  
-
-.footer {
-    margin-top: 1em;
-    margin-bottom: 5em; 
-    clear: both;
+.footerBox {
+    width: 100%;
 }
 
-/*______________EXTRAS__________________*/
-
-/* 
-
-header {
-    color: #565656;
+.footerRow {
+    width: 100%;
 }
 
-.heading {
-    font-family: 'Arsenal', sans-serif;
-    font-size: 5em;
-    color: #565656;
-    text-shadow: 1px -1px #00ff99;
-    margin-top: -.7em;
+.treehouse img {
+    border-radius: 6em;
+    width: 200px;
+    height: 200px;
+    border: 1px inset #00ff99;
+    box-shadow: 1px 1px #565656;
 }
-
-.heading::first-letter {
-    font-size: 175%;
-    color: #00ff99;
-    font-variant: all-petite-caps;
-    text-shadow: 4px 3px 7px black;
-    font-family: 'Advent pro',sans-serif;
-}
-
-.subHeading {
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 4.3em;
-    font-weight: normal;
-    text-align: center;
-    text-shadow: 1px 1px #ffcc95;
-    padding-top: -1.5em;
-    margin-left: -1.5em;
-    margin-top: .5em;
-}
-
-
-p, .normal {
-    font-family: 'Questrial', sans-serif;
-    line-height: 2;
-    padding-top: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 1.6rem;
-    font-weight: 300;
-}
-
-.intro {
-    font-size: 2rem;
-    text-align: center;
-}
-
-.image1 {
-    background-image: url("../images/image1.png");
-}
-
-
-.fSide_1 {
-    float: left;
-    max-width: 15em;
-    max-height: 300px;
-    padding: 2em;
-    height: 250px;
-
-}
-
-.fSide_2 {
-    float: right;
-    max-width: 15em;
-    max-height: 300px;
-    padding: 2em;
-
-}
-
-.fSide_1 li, .fSide_2 li {
-   margin: 15px;
-   list-style: none;
-} */
-
-/*/         Heading box [Aside]             /*/ /*
-aside {
-    float: right;
-    border-radius: 2em;
-    border: 5px dashed #00ff99;
-    margin: 5em;
-    padding: 1.5em;
-    background: #565656;
-    color: #eeeeee;
-    font-weight: normal;
-    opacity: .9;
-}
-
-aside li {
-    font-weight: 300;
-    text-decoration: none;
-    list-style-type: none;
-    line-height: 13.5px;
-    border-bottom: 1px dashed #ffcc95;
-}
-
-*/
-
