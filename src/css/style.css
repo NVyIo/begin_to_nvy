@@ -30,6 +30,7 @@ Colors:
 
 body, main {
     /*  max-width: 1300px; */
+    
       margin: auto;
       font-size: 20px;
       font-family: 'Questrial', sans-serif;
@@ -48,19 +49,7 @@ body, main {
       list-style-type: none;
       display: inline;
   }
-  
-  a {
-      font-family: 'Questrial', sans-serif;
-      text-decoration: none;
-      padding-right: 7px;
-      padding-left: 5px;
-      color: #00ff99;
-      font-size: xx-large;
-      background: white;
-      border-radius: 5em;
-      font-family: 'Arsenal', sans-serif;
-      text-shadow: 1px 1px #565656, 1.5px 1.5px black;
-  }
+
   
   h1, h2 {
       font-weight: 300;
@@ -380,6 +369,19 @@ p.intro {
     display: flex;
 }
 
+.colorContainer2 {
+    float: left;
+    position: relative;
+    font-size: 18px;
+    border-radius: 2em;
+    padding: 25px;
+    margin-left: 15.5em;
+    margin-right: 50px;
+    margin-top: -5em;
+    width: 100%;
+    display: flex;
+}
+
 .colorSquare { 
     float:left;
     display: block;
@@ -387,6 +389,7 @@ p.intro {
     clear: both;;
     margin-left:25.5%;
 }
+
 .colorBlock {
     float: left;
     display: block;
@@ -420,8 +423,10 @@ p.intro {
         /* margin: 1.75em 0 0 3em; */
         padding: 1em;
         width: 250px;
-        text-shadow: 0.5px 0.5px #292299, 1px 1px 20px #565656, 1.5px 1.5px #00ff99, 2px 2px black, 2.5px 2.5px rgba(255, 0, 111, 0.6705882352941176);
-        color: #565656;
+        text-shadow: 2px -1px #565656, .5px .5px #00ff99;
+        /*
+        text-shadow: 0.5px 0.5px #292299, 1px 1px 20px #565656, 1.5px 1.5px #00ff99, 2px 2px black, 2.5px 2.5px rgba(255, 0, 111, 0.6705882352941176); */
+        color: transparent;
         z-index: 99;
         letter-spacing: 2px;
 }
@@ -699,17 +704,6 @@ ul.backgroundList {
     box-shadow: 10px 10px 10px #565656;
 }
 
-
-/* Make snippets
-opacity
-parallax
-overlay
-burned
-translucent 
-*/
-
-
-
 /*      Backgrounds         */
 
 .weave {
@@ -718,6 +712,15 @@ translucent
     background-size: cover;
 }
 /*/           Table of Contents     /*/  
+
+.tocBlock {
+    width: fit-content;
+    float: right;
+    margin-right: 3em;
+    background: #56565633;
+    box-shadow: 1px 1px 10px #565656;
+    margin-bottom: 3em;
+}   
 
 #toc {
     float: right;
@@ -728,7 +731,26 @@ translucent
 }
 
 .toc {
-    border-bottom: 1px dashed #f5eadf;
+    margin-top: -1em;
+}
+
+.toc.sigPanel {
+    margin: 0;
+    padding: 0 1em;
+}
+
+.toc.notecards li.noteRow {
+    /* line-height: 0px; */
+    margin-left: 1.2em;
+    margin: .5em 1em;
+    font-size: 1.2em;
+    letter-spacing: 6px;
+    font-variant: small-caps;
+    list-style-type: square;
+}
+
+.toc.sigPanel.notecards. li.noteRow {
+    font-weight: 900;
 }
 
 /*/            Slider  Box        /*/
@@ -779,7 +801,6 @@ img#activeImg {
     margin-left: 3em;
 }
 
-
 .sliderImg {
     border: 1px outset #f5eadf;
     border-radius: 2em;
@@ -791,7 +812,7 @@ img#activeImg {
 
 
 /* Slider Preview Description */
-
+/*
 .sliderPreviewContainer {
 
 }
@@ -819,7 +840,7 @@ img#activeImg {
 
 .sliderPreviewDesc {
 
-}
+} */
 /*/            Extras     /*/  
 
 .extrasBox {
@@ -1003,6 +1024,7 @@ img#activeImg {
     }
 
     /*    Signature Block   */
+
     .signatureBlock {
         border-radius: 2em;
         width: fit-content;
@@ -1066,6 +1088,7 @@ img#activeImg {
     .sigSocImg img:first-of-type{
         margin-left: 20%;
     }
+
     .sigSocImg img {
         width: 40px;
         height: 40px;
@@ -1165,18 +1188,106 @@ code {
 
 
 /*/           FOOTER to nvy        /*/  
+
+
 .footerBox {
     width: 100%;
+    background-color: #343a40!important;
+    margin-top: -5em;
 }
 
 .footerRow {
     width: 100%;
+    margin-left: 20%;
+    padding-top: 1em;
+}
+
+.footerRow p, .footerRow.nvy {
+    font-size: 1.4em;
+    margin-left: 2em;
+    padding: 0;
+    line-height: 1;
+    text-align: left;
+    font-family: 'Advent Pro',sans-serif;
+    letter-spacing: 2px;
+}   
+
+.footerRow p, h2.footerRow {
+    color: white;
+}
+
+.footerRow h2 {
+    font-size: 2.5em;
+    text-shadow: 1px 1px 10px black, 0.5px 1.5px #00ff99, 2.5px 2.5px #bfbfbf;
+    color: white;
+    line-height: 1;
+    /* text-align: center; */
+    margin-left: 10%;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 7px;
+}
+
+.footerRow p, .footerRow.nvy {
+    font-size: 1.4em;
+    margin-left: 3.5em;
+    padding: 0;
+    text-align: left;
+    font-family: 'Advent Pro',sans-serif;
+    letter-spacing: 2px;
+}
+
+a.nvy {
+    background: none;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.footerIconz {
+    padding-right: 7px;
+    padding-left: 5px;
+    margin-left: 10%;
+}
+
+.footerIconz a {
+    background: none;
+}
+
+.footerIconz img {
+    width: 60px;
+    padding-right: .7em;
 }
 
 .treehouse img {
     border-radius: 6em;
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     border: 1px inset #00ff99;
     box-shadow: 1px 1px #565656;
+    float: right;
+    margin-top: -5em;
+    margin-right: 8em;
 }
+
+a.treehouse, a.logo2 {
+    background: none;
+}
+
+a.logo2 {
+    margin-top: -2em;
+}
+
+.logo2 img {
+    width: 200px;
+    height: 200px;
+    margin-top: -10em;
+    margin-left: 5em;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Advent Pro',sans-serif;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 10px #00ff99;
+    padding-bottom: 2em;
+}   
