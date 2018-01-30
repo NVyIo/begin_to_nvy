@@ -1,5 +1,5 @@
-  /*/                    begin_: 2_nvy                   /*/
- /*/                A project starter kit              /*/
+  /*/                    begin_: 2_nvy           /*/
+ /*/                A project starter kit         /*/
 /*/              Cascading Style Sheet           /*/
 /*
 
@@ -32,7 +32,6 @@ html {
     height: 100%;
 }
 
-
 body {
     /*  max-width: 1300px; */
     display: flex;
@@ -46,6 +45,7 @@ body {
   
   main{
     flex: 1 0 auto;
+    margin-left: 2em;
   }
 
   p, .normal {
@@ -61,6 +61,7 @@ body {
       display: inline;
   }
 
+  
   h1, h2 {
       font-weight: 300;
       letter-spacing: 3px;
@@ -759,7 +760,7 @@ ul.backgroundList {
     list-style-type: square;
 }
 
-.toc.sigPanel.notecards. li.noteRow {
+.toc.sigPanel.notecards, li.noteRow {
     font-weight: 900;
 }
 
@@ -820,37 +821,6 @@ img#activeImg {
     box-shadow: 10px 11px 10px #565656;
 }
 
-
-/* Slider Preview Description */
-/*
-.sliderPreviewContainer {
-
-}
-
-.sliderPreview{
-
-}
-
-.sliderPreviewArrow{
-    width: 0; 
-    height: 0; 
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent; 
-    border-right:25px solid #565656; 
-    opacity: .3;    
-}
-
-.sliderPreviewBlock {
-    width: 250px;
-    height: 45px;
-    background: #565656;
-    opacity: .3; 
-    margin-top: -.1em;
-}
-
-.sliderPreviewDesc {
-
-} */
 /*/            Extras     /*/  
 
 .extrasBox {
@@ -1110,6 +1080,9 @@ img#activeImg {
     }
 
 
+    /*     IssuesBlock   */
+
+
  
     /*     CodeBlock   */
 
@@ -1208,6 +1181,7 @@ code {
 
 .footerRow {
     width: 100%;
+    margin-top: .50px;
     margin-left: 20%;
     padding-top: 1em;
 }
