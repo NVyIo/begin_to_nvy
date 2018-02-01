@@ -1,9 +1,7 @@
+
+
+How to use the Starter Project
+
 Starter Project Checklist  [Creation]
-
-Goto:
-
-
-Starter Project Checklist  [Creation]
-
 Goto: [link]
 choose the fork button
