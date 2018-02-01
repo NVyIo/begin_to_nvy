@@ -60,26 +60,35 @@
     margin-top: -3.4em;
     margin-left: 20em;
     color: #565656;
-    font-size: 1.5em;
+    font-size: 1.1em;
     padding: 0;
     font-family: 'Questrial', sans-serif;
 }
 
 .issues.noteRow {
-    margin: 1em 5em 1.5em;
+    margin: 3.5em 5em 1.5em;
     border-bottom: 1px inset #ff006fab;
     color: #565656;
     list-style-type: none;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Arsenal', sans-serif;
-}
+    padding: 5px;
+}   
 
 .issues.tocBlock {
     width: fit-content;
     float: right;
     margin-right: 3em;
-    background: #56565633;
+    background: #f5eadf;
     box-shadow: 1px 1px 10px #565656;
     margin-bottom: 3em;
-    margin-top: -17em;
+    margin-top: -60em;
+}
+
+#d93f0b.fa.fa-square{
+    color:  #d93f0b;
+}
+
+#b60205.fa.fa-square{
+    color: #b60205;
 }
