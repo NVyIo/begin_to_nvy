@@ -1,8 +1,7 @@
-# Issue Submission Template
-**Project Name:**     "begin_2_nvy"
+# Issue Submission Template [ begin_2_nvy ]
 
 ## Issue Description
-
+[                                                   ]
 ## Select Issue Type 
 
 Input an X on the appropriate reason for your submission:
@@ -14,7 +13,7 @@ Input an X on the appropriate reason for your submission:
 
 
 ## System Info
-Troubleshooting will take place for Windows systems only as all products are built on Linux and Windows and some Android; others are generally not supported
+Supported systems include Windows, Linux and Android.  Other systems are not supported.  Please provide details on your specific setup.
 
 System Type:
 
@@ -29,13 +28,17 @@ Operating System:
     [ ] Android  [ Version:            ]
 
 #### For Bugs
-Behavior you were doing when you first experienced the BUG:
 
+Behavior you were doing when you first experienced the BUG:
+[                                           ]
+#### Code Editor
+
+[  ]  Of course, I am using VS Code
+[  ]  oh no, I am not using VS Code 
 
 ## Additional Information
-Please add additional information as needed for the resolution of this issue 
 
-
+Please add additional information as needed for the resolution of this issue:
 
 ## Visual Aides
 
